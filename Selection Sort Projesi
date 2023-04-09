@@ -1,0 +1,17 @@
+[22,27,16,2,18,6] -> Insertion Sort
+Dizimizin içerisinde bulunan en küçük sayıyı seçiyoruz. (2) 
+2 ile 22 sayısının yerlerini değiştiriyoruz. (2,27,16,22,18,6)
+Daha sonra aynı işlemi 2. sıra içinde yapıyor ve en küçük sayıyı belirliyoruz (6) ve (27) ile yerlerini değiştiriyoruz (2,6,16,22,18,27)
+Daha sonra aynı işlemi 3. sıra içinde yapıyor ve en küçük sayıyı belirliyoruz (16) ve zaten 3. sırada olduğu için yerini değiştirmeye gerek yok (2,6,16,22,18,27)
+Daha sonra aynı işlemi 4. sıra içinde yapıyor ve en küçük sayıyı belirliyoruz (18) ve (22) ile yerlerini değiştiriyoruz (2,6,16,18,22,27)
+Böylelikle dizimizin son hali bu şekilde oluyor (2,6,16,18,22,27)
+Big-O gösterimi = O(n²)
+18 sayısı tam ortada olduğundan dolayı caselerden Average Case kapsamına girmektedir.
+
+[7,3,5,8,2,9,4,15,6] dizisinin Selection Sort'a göre ilk 4 adımına bakalım
+Dizimizin içerisinde bulunan en küçük sayıyı seçiyoruz. (2) 
+2 ile 7 sayısının yerlerini değiştiriyoruz. (2,3,5,8,7,9,4,15,6)
+Daha sonra aynı işlemi 2. sıra içinde yapıyor ve en küçük sayıyı belirliyoruz (3) ve zaten 2. sırada olduğu için yerini değiştirmeye gerek  
+Daha sonra aynı işlemi 3. sıra içinde yapıyor ve en küçük sayıyı belirliyoruz (4) ve (5) ile yerlerini değiştiriyoruz (2,3,4,8,7,9,5,15,16)
+Daha sonra aynı işlemi 4. sıra içinde yapıyor ve en küçük sayıyı belirliyoruz (5) ve (8) ile yerlerini değiştiriyoruz (2,3,4,5,7,9,8,15,16)
+Bu işlemleri her sıra için yapıp bitirdiğimizde dizimizin son hali (2,3,4,5,6,7,8,9,15)
